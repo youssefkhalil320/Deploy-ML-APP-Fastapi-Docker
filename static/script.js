@@ -26,3 +26,17 @@ document.getElementById('askForm').addEventListener('submit', async function (ev
         document.getElementById('response').innerText = 'An error occurred. Please try again.';
     }
 });
+
+// Show image preview
+document.getElementById('image').addEventListener('change', function () {
+    const file = this.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+            const preview = document.getElementById('preview');
+            preview.src = e.target.result;
+            preview.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+    }
+});

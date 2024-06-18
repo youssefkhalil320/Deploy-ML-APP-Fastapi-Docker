@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ask Model</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Ask the Model</h1>
-        <form id="askForm">
-            <div class="form-group">
-                <label for="text">Text:</label>
-                <input type="text" id="text" name="text" required>
-            </div>
-            <div class="form-group">
-                <label for="image">Image:</label>
-                <input type="file" id="image" name="image" accept="image/*" required>
-            </div>
-            <button type="submit">Submit</button>
-        </form>
-        <div id="response"></div>
-    </div>
-    <script src="script.js"></script>
+    </header>
+    <main>
+        <div class="tile">
+            <form id="askForm">
+                <div class="form-group">
+                    <label for="text">Text:</label>
+                    <input type="text" id="text" name="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image:</label>
+                    <input type="file" id="image" name="image" accept="image/*" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="response"></div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Ask Model App</p>
+    </footer>
+    <script src="static/script.js"></script>
 </body>
 </html>

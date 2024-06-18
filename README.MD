@@ -44,7 +44,7 @@ http://127.0.0.1:8000
 
 ## Demo
 
-![Alt text](./images/1.png)
+![Alt text](./images/demo.png)
 
 
 ## Contribution

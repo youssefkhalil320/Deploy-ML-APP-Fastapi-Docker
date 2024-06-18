@@ -1,9 +1,16 @@
-# Job Application Analyzer
+# Ask Model Application
 
-## Description
+## Overview
 
-The Job Application Analyzer is a sophisticated tool designed to streamline the process of analyzing and evaluating job applications. Leveraging advanced natural language processing (NLP) and artificial intelligence (AI) models, this tool automates the extraction of key details from resumes, conducts virtual interviews with candidates, and generates comprehensive reports. The primary goal is to assist HR professionals and recruiters in efficiently assessing candidate qualifications and fit for a given role.
+The Ask Model Application is a web-based interface that leverages an open-source Hugging Face model to analyze and describe images based on provided textual input. The application consists of a modern frontend interface built with HTML, CSS, and JavaScript, and a backend powered by FastAPI, a high-performance web framework for building APIs with Python 3.7+.
 
+## Features
+
+- **User-Friendly Interface:** A clean, modern UI with a header, footer, and central tile for easy interaction.
+- **Image Preview:** Real-time image preview on upload to ensure the correct file is selected.
+- **Responsive Design:** Mobile-friendly and responsive design to provide a seamless user experience across devices.
+- **Fast and Efficient:** Utilizes FastAPI for handling requests quickly and efficiently.
+- **Advanced Image Analysis:** Uses a state-of-the-art Hugging Face model to provide detailed descriptions of uploaded images.
 
 
 
